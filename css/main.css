@@ -1,0 +1,43 @@
+body {
+  margin: 0;/*quita el margen a todo*/
+  padding: 0;/*quita paddig por defecto*/
+  box-sizing: border-box;/*añade borde a todo el bODY*/
+  color:  #303030;/*color a la letra*/
+}
+
+/*clases reutilizables*/
+.text-uppercase {
+  text-transform: uppercase;/*transforma el texto a mayúscula*/
+}
+
+/*class específicas*/
+li a {
+  color: inherit;/*hereda el color de su padre BODY*/
+  text-decoration: none;/*quita el subrayado*/  
+}
+
+ul li {
+  display: inline;/*sólo deben estar uno a lado del otro*/  
+  list-style: none;/*quita las viñetas*/
+  padding: 10px;
+  background-color: yellow;
+}
+
+.logo-header {/*logo que está en el header*/
+  width: 200px;/*le da un nuevo ancho*/
+}
+
+nav {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50);/*mueve la mitad del elemento hacia arriba y la otra mitad hacia abajo*/
+}
+
+.box-header {
+  display: inline-block;
+}
+
+header {
+  position: relative; 
+}
