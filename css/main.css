@@ -20,10 +20,19 @@ ul li {
   display: inline;/*sólo deben estar uno a lado del otro*/  
   list-style: none;/*quita las viñetas*/
   padding: 10px;
+  margin: 5px;
+}
+
+li:hover {
+  color: #f2aa13;
 }
 
 .logo-header {/*logo que está en el header*/
   width: 200px;/*le da un nuevo ancho*/
+}
+
+header {
+  position: relative; /*se queda en su lugar*/
 }
 
 nav {
@@ -34,9 +43,49 @@ nav {
 }
 
 .box-header {
-  display: inline-block;
+  display: inline-block;/*hace que cada caja se ubique a lado, pero manteniend su altura*/
 }
 
-header {
-  position: relative; 
+.logo-square {
+  width: 100px;/*100px es el ancho de FIGURE*/
+}
+
+section {
+  text-align: center;/*centra todo el contenido, incluyendo la img*/
+}
+
+div {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px;
+  width: 33%;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-size: 30px;
+  transition: 5s;
+}
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+  color: #f2aa13;
+}
+
+footer {
+  background-color: #303030;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  bottom: 0;
+}
+
+.btn {
+  background-color: #db964a;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+  padding: 5px;
+}
+
+.btn:hover {
+  background-color: #644721;  
 }
