@@ -20,7 +20,6 @@ ul li {
   display: inline;/*sólo deben estar uno a lado del otro*/  
   list-style: none;/*quita las viñetas*/
   padding: 10px;
-  background-color: yellow;
 }
 
 .logo-header {/*logo que está en el header*/
@@ -31,7 +30,7 @@ nav {
   position: absolute;
   right: 5%;
   top: 50%;
-  transform: translateY(-50);/*mueve la mitad del elemento hacia arriba y la otra mitad hacia abajo*/
+  transform: translateY(-50%);/*mueve la mitad del elemento hacia arriba y la otra mitad hacia abajo*/
 }
 
 .box-header {
